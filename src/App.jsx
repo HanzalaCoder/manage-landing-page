@@ -7,7 +7,7 @@ import Section2 from './components/Section2'
 function App() {
 
   return (
-    <div className="font-pro box-border">
+    <div className="font-pro box-border bg-DarkBlue">
       <header>
           <Header />
       </header>
