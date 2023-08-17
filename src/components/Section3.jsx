@@ -50,7 +50,7 @@ export default function Section3() {
     return (
         <section className="mt-24  max-w-[95vw] lg:max-w-[85vw] mx-auto flex flex-col items-center mb-24">
             <h1 className="text-4xl text-DarkBlue text-center mb-16 font-bold">What they've said</h1>
-            <div className="lg:grid lg:grid-cols-2 gap-4">
+            <div className="lg:grid lg:grid-cols-3 gap-4 w-[80vw] place-content-between mx-auto">
             {profiles}
 
             </div>

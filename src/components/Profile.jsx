@@ -2,7 +2,7 @@
 export default function Profile(props) {
     if (props.id == 1)  {
         return (
-            <article className="slide md:flex flex flex-col items-center justify-center gap-4 mx-8 text-center max-w-xl mb-16 ">
+            <article className="slide md:hidden flex flex-col items-center justify-center gap-4 mx-8 text-center max-w-xl mb-16 ">
                 <img className="w-[30%]" src={props.img} alt="" />
                 <h1 className="text-DarkBlue font-bold">{props.name}</h1>
                 <p className="text-DarkGrayishBlue/90 lg:max-w-[40ch]"> <q>
